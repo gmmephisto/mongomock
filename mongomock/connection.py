@@ -82,6 +82,12 @@ class Connection(object):
         """
         return True
 
+    def close(self):
+        pass
+
+    def disconnect(self):
+        pass
+
 
 # Connection is now depricated, it's called MongoClient instead
 class MongoClient(Connection):
